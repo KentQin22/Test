@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>caicai</title>
+ </head>
+ <body>
+	<script>
+		var num = parseInt(Math.random()*100)+1;
+		
+		do{
+			var input = prompt("请输入你的数字：");
+			if (input == num)
+			{
+				alert("恭喜你，答对了.");
+				break;
+			}else if(input == "exit"){
+				break;
+			}else{
+				var hint = input < num ? "猜小了"  : "猜大了";
+				alert(hint);
+			}
+		}while(1<2);
+		
+	</script>
+ </body>
+</html>
