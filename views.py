@@ -10,6 +10,7 @@ def eat()
 
 def sleep() 
     return "睡觉"
+
 def dream():
-	print("正在添加新功能，不过还没有完成...")
+	return "新功能已经添完；"
 	
