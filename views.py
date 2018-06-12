@@ -1,12 +1,12 @@
 
 import time
 
-def get_up()  
+def get_up():
     return "起床"
 
-def eat()   
+def eat():   
     print("煮饭")
     return "吃饭"
 
-def sleep() 
+def sleep(): 
     return "睡觉"
